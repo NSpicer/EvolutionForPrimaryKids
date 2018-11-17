@@ -1,0 +1,181 @@
+#Title {
+  background-color: #939393;
+  background-size: cover;
+  font-family: "Century Gothic";
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+#TreeLogo {
+    width: 8vw;
+    float: left;
+  }
+ul.nav {
+    background-color: #e2e2e2;
+    margin: 0;
+    text-align: center;
+}
+ul.nav li {
+      display: inline-block;
+      padding-right: 3vw;
+  		padding-left: 3vw;
+  		padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #939393;
+      font-family: "Century Gothic";
+      margin: 0px;
+  }
+  ul.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ul.nav a:hover {
+    font-weight: bold;
+    margin: 0px;
+}
+h1 {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px;
+}
+body {
+  background-color: #e2e2e2;
+  margin: 0px;
+  font-family: sans-serif;
+  height: 100%;
+}
+.container {
+  padding-top: 1.5vw;
+  padding-bottom: 20px;
+  padding-left: 18vw;
+  padding-right: 18vw;
+  text-align: left;
+}
+footer {
+  height: 8vw;
+  background-color: white;
+  font-size: 0.7rem;
+  padding-left: 20vw;
+}
+.footertext {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  padding: 0px;
+  margin: 0px;
+}
+#UoBLogo {
+  width: 15vw;
+}
+#TEFgold {
+  width: 8vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2vw;
+}
+#TeacherVideoPreview {
+  width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#AddressingMisconceptions1 {
+  width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#AddressingMisconceptions2{
+  width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+.imageBox:hover .AddressingMisconceptions2{
+  display: block;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table#lessons tr td:nth-child(1) {
+   text-align: center;
+   width: 20vw;
+}
+table#lessons tr td:nth-child(2) {
+   text-align: center;
+   width: 20vw;
+}
+table#lessons {
+  background-color: white;
+}
+#Lesson1{
+  width: 10vw;
+}
+#Lesson2{
+  width: 10vw;
+}
+#Lesson3{
+  width: 5vw;
+}
+#Lesson4{
+  width: 10vw;
+}
+.sub {
+  font-size: 0.8rem;
+}
+.button {
+  border-radius: 50%;
+}
+table#keywords tr:nth-child(even) {
+    background-color: #caeef9 /*#d6d6d6*/;
+}
+table#keywords tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#keywords tr td:nth-child(1) {
+   text-align: center;
+   width: 20%
+}
+table#keywords tr td:nth-child(2) {
+   width: 80%
+}
+table#keywords th {
+    background-color: #49d4ff /*#a5e4ff*/;
+    text-align: center;
+}
+form {
+  align: center;
+  margin: 10px;
+}
+input {
+  margin: 10px;
+}
+#Name {
+  width: 40vw;
+  height: 3vw;
+  font-style: sans-serif;
+}
+#Email {
+  width: 40vw;
+  height: 3vw;
+  font-style: sans-serif;
+}
+#Message {
+  width: 40vw;
+  height: 15vw;
+  font-style: sans-serif;
+}
