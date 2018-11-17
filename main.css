@@ -7,10 +7,6 @@
   padding-bottom: 15px;
   margin: 0px;
 }
-#TreeLogo {
-    width: 8vw;
-    float: left;
-  }
 ul.nav {
     background-color: #e2e2e2;
     margin: 0;
@@ -25,13 +21,31 @@ ul.nav li {
       background-color: #939393;
       font-family: "Century Gothic";
       margin: 0px;
-  }
+}
   ul.nav a {
     color: #ffffff;
     text-decoration: none;
 }
 ul.nav a:hover {
     font-weight: bold;
+    margin: 0px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #939393;
+    z-index: 1;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0px;
 }
 h1 {
@@ -76,6 +90,7 @@ hr {
 }
 #UoBLogo {
   width: 15vw;
+  margin: 10px;
 }
 #TEFgold {
   width: 8vw;
@@ -103,8 +118,24 @@ hr {
   margin-right: auto;
   position: absolute;
 }
-.imageBox:hover .AddressingMisconceptions2{
-  display: block;
+.imageBox {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.imageBox:hover .overlay{
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
 }
 table, th, td {
     border: 1px solid black;
@@ -137,8 +168,20 @@ table#lessons {
 .sub {
   font-size: 0.8rem;
 }
-.button {
-  border-radius: 50%;
+button {
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #939393;
+}
+#LessonPlans {
+  background-color: #b5ea75 /*#ffd647*/;
+}
+#PowerPointSlides {
+  background-color: #ff93e4;
+}
+#Other {
+  background-color: #49d4ff;
 }
 table#keywords tr:nth-child(even) {
     background-color: #caeef9 /*#d6d6d6*/;

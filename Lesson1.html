@@ -15,19 +15,25 @@
       <ul class='nav'>
         <li><a href=index.html>Home</a></li>
         <li><a href=AddressingMisconceptions.html>Addressing Misconceptions</a></li>
-        <li><a href=LessonPlans.html>Lesson Plans</a></li>
+        <div class="dropdown">
+          <span><li><a href=LessonPlans.html><strong>Lesson Plans</strong></a></li></span>
+          <div class="dropdown-content">
+            <p><a href='Lesson1.html'>Lesson 1</a></p>
+            <p><a href='Lesson2.html'>Lesson 2</a></p>
+            <p><a href='Lesson3.html'>Lesson 3</a></p>
+            <p><a href='Lesson4.html'>Lesson 4</a></p>
+          </div>
+        </div>
         <li><a href=UsefulLinks.html>Useful Links</a></li>
         <li><a href=Keywords.html>Keywords</a></li>
-        <li><a href=About.html><strong>About</strong></a></li>
+        <li><a href=About.html>About</a></li>
       </ul>
       <div class='container'>
         <p>Lesson 1 - Variation and Evolution</p>
-        <button type="button">Lesson<br>Plan</button>
-        <button type="button">PowerPoint<br>Slides</button>
+        <button type="button" id='LessonPlans'><a href='./LessonMaterials/Lesson1.docx'><strong>Lesson<br>Plan</strong></a></button>
+        <button type="button" id='PowerPointSlides'><a href='./LessonMaterials/Lesson1.pptx'><strong>PowerPoint<br>Slides</strong></a></button><br><br>
         <p>Other Resources</p>
-        <button type="button">A</button>
-        <button type="button">B</button>
-        <button type="button">C</button>
+        <button type="button"><a href='./LessonMaterials/TopTrumpCardsWorksheet.pdf'><strong>Top Trump Cards Worksheet</strong></a></button>
       </div>
       </body>
         <hr color='#939393' size='6'>
