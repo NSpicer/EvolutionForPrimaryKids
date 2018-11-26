@@ -8,15 +8,16 @@
         crossorigin="anonymous"></script>
         <link type="text/css" rel="stylesheet" href="main.css" />
     </head>
-    <body>
-        <div id='Title' class='title'>
-          <span style=""><h1>Teaching Evolution for Primary Children</h1></span>
+    <body class='bodygrey'>
+        <div class='Title' id='Title'>
+          <img id='LeafLogo' src='./Images/Leaf.png'>
+          <h1>Teaching Evolution for Primary Children</h1>
         </div>
-      <ul class='nav'>
+      <ul class='navgrey'>
         <li><a href=index.html><strong>Home</strong></a></li>
         <li><a href=AddressingMisconceptions.html>Addressing Misconceptions</a></li>
         <div class="dropdown">
-          <span><li><a href=LessonPlans.html id='LessonPlans'>Lesson Plans</a></li></span>
+          <span><li><a href=LessonPlans.html>Lesson Plans</a></li></span>
           <div class="dropdown-content">
             <p><a href='Lesson1.html'>Lesson 1</a></p>
             <p><a href='Lesson2.html'>Lesson 2</a></p>
@@ -29,26 +30,31 @@
         <li><a href=About.html>About</a></li>
       </ul>
     <div class='container'>
-      <p class='2minrefresher'><strong>2-minute refresher video on evolution</strong></p>
-      <img id='TeacherVideoPreview' src='./Images/TeacherVideoPreview.jpg' align="center">
-      <p><strong>Need help with preparing lessons on Evolution and Inheritance?</strong></p>
-      <p><strong>Find lesson plans designed by experts to suit <u>you</u>! We have consulted with primary school teachers to develop this <u>free for all</u> website.</strong></p>
-      <p>The <strong>National Curriculum</strong> states that children should be taught the 3 following topics:</p>
-      <ol class='NatCur'>
-        <li>Recognize that living things produce offspring of the <strong>same kind</strong>, but normally offspring vary and are <strong>not identical</strong> to their parents</li>
-        <li>Identify how animals and plants are <strong>adapted</strong> to suit their environment in different ways and that adaptation may lead to <strong>evolution</strong>.</li>
-        <li>Recognize that living things have <strong>changed over time</strong> and that <strong>fossils</strong> provide information about living things that inhabited the Earth millions of years ago.</li>
-      </ol>
+      <h2><strong>First of all, a quick refresher on evolution:</strong></h2>
+      <video id='AGuideToEvolution' controls poster="./Images/TeacherVideoPreview.jpg">
+        <source src='./Images/AGuideToEvolution.mp4' type='video/mp4'>Your browser does not support playing of this video. Please access it here: https://www.kickstarter.com/projects/northstargames/evolution-0?ref=video.
+      </video>
+          <br><h2 text-color='#b5ea75'><strong>Need help with preparing lessons on Evolution and Inheritance?</strong></h2>
+          <p><strong>Find lesson plans designed by experts to suit <u>you</u>! We have consulted with primary school teachers to develop this <u>free for all</u> website.</strong></p>
+    </div>
+    <div class='WrapperGreen'>
+      <div class='container'>
+          <p><strong>The National Curriculum</strong> states that children should be taught the 3 following topics:</p>
+          <ol class='NatCur'>
+            <li>Recognize that living things produce offspring of the <strong>same kind</strong>, but normally offspring vary and are <strong>not identical</strong> to their parents</li><br>
+            <li>Identify how animals and plants are <strong>adapted</strong> to suit their environment in different ways and that adaptation may lead to <strong>evolution</strong>.</li><br>
+            <li>Recognize that living things have <strong>changed over time</strong> and that <strong>fossils</strong> provide information about living things that inhabited the Earth millions of years ago.</li><br>
+          </ol>
+      </div>
     </div>
   </body>
-    <hr color='#939393' size='6'>
+    <hr color='#3b3b3b' size='6'>
     <footer>
       <p class='footertext'>
       <a href=https://www.futurelearn.com/courses/understanding-evolution>Understanding and Teaching Evolution Course</a>
         <img id='UoBLogo' src='./Images/UoBLogo.png' align="right">
         <img id='TEFgold' src='./Images/TEFgold.jpg' align='right'><br><br>
-      Our Team<br><br>
-      News<br></br>
+      <a href=News.html>News<a><br></br>
       <a href=About.html>Contact Us</a>
       </p>
     </footer>

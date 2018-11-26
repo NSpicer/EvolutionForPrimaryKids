@@ -8,11 +8,12 @@
         crossorigin="anonymous"></script>
         <link type="text/css" rel="stylesheet" href="main.css" />
     </head>
-    <body>
+    <body class='bodygreen'>
       <div id='Title' class='title'>
+          <img id='LeafLogo' src='./Images/Leaf.png'>
           <h1>Teaching Evolution for Primary Children</h1>
       </div>
-      <ul class='nav'>
+      <ul class='navgreen'>
         <li><a href=index.html>Home</a></li>
         <li><a href=AddressingMisconceptions.html>Addressing Misconceptions</a></li>
         <div class="dropdown">
@@ -30,31 +31,25 @@
       </ul>
       <div class='container'>
       <p>The content of this site was developed by Paula Kover, Emily Hogge and Nicola Spicer from the Department of Biology and Biochemistry, University of Bath.</p>
-      <p>If you used the resources and have any questions or feedback, please fill in the contact form below (pxk1@wordpress.com)</p>
+      <p>If you used the resources and have any questions or feedback, please send us an email: pxk1@wordpress.com.</p>
+      <form method='post' action="https://formspree.io/nicola.j.spicer@gmail.com" enctype="text/plain" align='center'>
+        <input type='text' id='Name' name='name' placeholder="Name"><br>
+        <input type='text' id='Email' name='mail' placeholder="Email Address"><br>
+        <input type='text' id='Message' name='comment' placeholder="Message"><br>
+        <input type='submit' value='Submit'>
+        <input type='reset' value='Send another' onclick="myFunction()">
+      </form>
+      <p id="Sent"></p>
       </div>
-    <form method='post' action="mailto:nicola.j.spicer@gmail.com" enctype="text/plain" align='center'>
-      <input type='text' id='Name' name='name' placeholder="Name"><br>
-      <input type='text' id='Email' name='mail' placeholder="Email Address"><br>
-      <input type='text' id='Message' name='comment' placeholder="Message"><br>
-      <input type='submit' value='Submit'>
-      <input type='reset' value='Send another' onclick="myFunction()">
-    </form>
-    <p id="Sent"></p>
-    <script>
-      function myFunction() {
-        document.getElemendById("Sent").innerHTML="Thank you, your email has been sent.";
-      }
-    </script>
     </body>
-      <hr color='#939393' size='6'>
+      <hr color='#3b3b3b' size='6'>
       <footer>
         <p class='footertext'>
         <a href=https://www.futurelearn.com/courses/understanding-evolution>Understanding and Teaching Evolution Course</a>
           <img id='UoBLogo' src='./Images/UoBLogo.png' align="right">
           <img id='TEFgold' src='./Images/TEFgold.jpg' align='right'><br><br>
-        Our Team<br><br>
-        News<br></br>
-        <a href=About.html>Contact Us</a>
+        <a href=News.html>News<a><br></br>
+        <a href=About.html><strong>Contact Us</strong></a>
         </p>
       </footer>
 </html>

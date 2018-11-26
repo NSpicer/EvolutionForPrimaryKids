@@ -1,5 +1,5 @@
 #Title {
-  background-color: #939393;
+  background-color:#3b3b3b;
   background-size: cover;
   font-family: "Century Gothic";
   text-align: center;
@@ -7,46 +7,92 @@
   padding-bottom: 15px;
   margin: 0px;
 }
-ul.nav {
-    background-color: #e2e2e2;
-    margin: 0;
-    text-align: center;
+#LeafLogo {
+  width: 100px;
 }
-ul.nav li {
-      display: inline-block;
-      padding-right: 3vw;
-  		padding-left: 3vw;
-  		padding-top: 10px;
-      padding-bottom: 10px;
-      background-color: #939393;
-      font-family: "Century Gothic";
-      margin: 0px;
+ul.navgreen {
+  background-color: #f3fee6;
+  margin: 0;
+  text-align: center;
 }
-  ul.nav a {
-    color: #ffffff;
-    text-decoration: none;
+ul.navgrey {
+  background-color: #dfe4e5;
+  margin: 0;
+  text-align: center;
 }
-ul.nav a:hover {
-    font-weight: bold;
-    margin: 0px;
+ul.navgreen li {
+  display: inline-block;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3b3b3b;
+  font-family: "Century Gothic";
+  margin: 0px;
+}
+ul.navgrey li {
+  display: inline-block;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3b3b3b;
+  font-family: "Century Gothic";
+  margin: 0px;
+}
+ul.navgrey a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5vw;
+}
+ul.navgreen a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+@media only screen and (max-width: 800px) {
+  ul.navgrey li {
+    display: table-row;
+    align-items: left;
+  }
+  ul.navgrey a {
+    font-size: 15px;
+  }
+}
+ul.navgrey a:hover {
+  font-weight: bold;
+  margin: 0px;
+}
+ul.navgreen a:hover {
+  font-weight: bold;
+  margin: 0px;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #939393;
-    z-index: 1;
-    padding-right: 4vw;
-    padding-left: 4vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0px;
+  display: none;
+  position: absolute;
+  background-color: #3b3b3b;
+  opacity: 0.75;
+  z-index: 1;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+  .navgrey.responsive .dropdown {float: none;}
+  .navgrey.responsive .dropdown-content {position: relative;}
+  .navgrey.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 h1 {
   font-size: 30px;
@@ -54,10 +100,16 @@ h1 {
   padding: 10px;
 }
 body {
-  background-color: #e2e2e2;
   margin: 0px;
   font-family: sans-serif;
   height: 100%;
+  color: #3b3b3b;
+}
+.bodygrey {
+  background-color: #dfe4e5;
+}
+.bodygreen {
+  background-color: #f3fee6;
 }
 .container {
   padding-top: 1.5vw;
@@ -66,15 +118,27 @@ body {
   padding-right: 18vw;
   text-align: left;
 }
+.WrapperGrey {
+  background-color: #dfe4e5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.WrapperGreen {
+  background-color: #f3fee6;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 footer {
-  height: 8vw;
+  height: 100px;
   background-color: white;
   font-size: 0.7rem;
   padding-left: 20vw;
 }
 .footertext {
   margin-top: 0px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 a {
@@ -90,7 +154,7 @@ hr {
 }
 #UoBLogo {
   width: 15vw;
-  margin: 10px;
+  margin: 5px;
 }
 #TEFgold {
   width: 8vw;
@@ -99,23 +163,23 @@ hr {
   margin-right: auto;
   padding-top: 2vw;
 }
-#TeacherVideoPreview {
+#AGuideToEvolution {
   width: 60vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 #AddressingMisconceptions1 {
-  width: 60vw;
+  width: 80vw;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 #AddressingMisconceptions2{
-  width: 60vw;
+  width: 80vw;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
   position: absolute;
 }
 .imageBox {
@@ -138,7 +202,7 @@ hr {
   transition: .3s ease;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 0px;
     border-collapse: collapse;
     padding: 5px;
 }
@@ -153,6 +217,9 @@ table#lessons tr td:nth-child(2) {
 table#lessons {
   background-color: white;
 }
+table#lessons a:hover{
+  text-decoration: none;
+}
 #Lesson1{
   width: 10vw;
 }
@@ -165,29 +232,64 @@ table#lessons {
 #Lesson4{
   width: 10vw;
 }
+td.lesson1cell:hover {
+    background-color: #d5ffff;
+    text-decoration: none;
+}
+td.lesson2cell:hover {
+    background-color: #d5ffff;
+    text-decoration: none;
+}
+td.lesson3cell:hover {
+    background-color: #d5ffff;
+    text-decoration: none;
+}
+td.lesson4cell:hover {
+    background-color: #d5ffff;
+    text-decoration: none;
+}
 .sub {
   font-size: 0.8rem;
 }
 button {
-  border-radius: 8px;
+  border-radius: 20px;
   height: 100px;
   width: 100px;
-  border: 2px solid #939393;
+  border: 2px solid #3b3b3b;
+  margin: 10px;
 }
 #LessonPlans {
-  background-color: #b5ea75 /*#ffd647*/;
+  background-color: #b5ea75;
 }
 #PowerPointSlides {
-  background-color: #ff93e4;
+  background-color: #ffa6ff;
 }
 #Other {
-  background-color: #49d4ff;
+  background-color: #a6ffff;
+}
+button#LessonPlans:hover{
+  background-color: #d7fca9;
+}
+button#PowerPointSlides:hover{
+  background-color: #ffe5ff;
+}
+button#Other:hover {
+  background-color: #d5ffff;
+}
+#LessonPlans a:hover{
+  text-decoration: none;
+}
+#PowerPointSlides a:hover{
+  text-decoration: none;
+}
+#Other a:hover {
+  text-decoration: none;
 }
 table#keywords tr:nth-child(even) {
-    background-color: #caeef9 /*#d6d6d6*/;
+    background-color: #ffe5ff;
 }
 table#keywords tr:nth-child(odd) {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 table#keywords tr td:nth-child(1) {
    text-align: center;
@@ -197,7 +299,7 @@ table#keywords tr td:nth-child(2) {
    width: 80%
 }
 table#keywords th {
-    background-color: #49d4ff /*#a5e4ff*/;
+    background-color: #b5ea75;
     text-align: center;
 }
 form {
@@ -221,4 +323,22 @@ input {
   width: 40vw;
   height: 15vw;
   font-style: sans-serif;
+}
+#NewsPicturePink {
+  height: 220px;
+  margin: 10px;
+  border: 4px solid;
+  border-color: #ffe5ff;
+}
+#NewsPictureBlue {
+  height: 220px;
+  margin: 10px;
+  border: 4px solid;
+  border-color: #d5ffff;
+}
+.NewsVideo {
+  float: left;
+}
+table.UsefulLinks {
+  border: 0px;
 }
