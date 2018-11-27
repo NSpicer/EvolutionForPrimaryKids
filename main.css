@@ -122,7 +122,6 @@ ul.navgreen a:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
-
 }
 h1 {
   font-size: 30px;
@@ -199,18 +198,59 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-#AddressingMisconceptions1 {
-  width: 80vw;
-  display: block;
-  margin-left: 10vw;
-  margin-right: 10vw;
+#AddressingMisconceptionsA{
+  width: 20vw;
+  padding-left: 30px;
+  padding-top: 50px;
 }
-#AddressingMisconceptions2{
-  width: 80vw;
-  display: block;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  position: absolute;
+#AddressingMisconceptionsAA{
+  width: 20vw;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+#AddressingMisconceptionsB{
+  width: 25vw;
+}
+#AddressingMisconceptionsBB{
+  width: 25vw;
+}
+#AddressingMisconceptionsC{
+  width: 18vw;
+  padding-top: 90px;
+}
+#AddressingMisconceptionsCC{
+  width: 18vw;
+  padding-top: 90px;
+}
+#AddressingMisconceptionsD{
+  width: 19vw;
+}
+#AddressingMisconceptionsDD{
+  width: 19vw;
+}
+#AddressingMisconceptionsE{
+  width: 16vw;
+  padding-bottom: 60px;
+}
+#AddressingMisconceptionsEE{
+  width: 16vw;
+  padding-bottom: 60px;
+}
+#AddressingMisconceptionsF{
+  width: 16vw;
+  padding-top: 20px;
+}
+#AddressingMisconceptionsFF{
+  width: 16vw;
+  padding-top: 20px;
+}
+#AddressingMisconceptionsG{
+  width: 19vw;
+  padding-bottom: 20px;
+}
+#AddressingMisconceptionsGG{
+  width: 19vw;
+  padding-bottom: 20px;
 }
 .imageBox {
   position: relative;
