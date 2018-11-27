@@ -160,7 +160,7 @@ body {
   width: 100%;
 }
 footer {
-  height: 100px;
+  height: 120px;
   background-color: white;
   font-size: 0.7rem;
   padding-left: 20vw;
@@ -181,16 +181,10 @@ hr {
   padding: 0px;
   margin: 0px;
 }
-#UoBLogo {
-  width: 15vw;
-  margin: 5px;
-}
-#TEFgold {
-  width: 8vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 2vw;
+#LeafLogoFooter {
+  width: 5vw;
+  padding-right: 18vw;
+  padding-top: 15px;
 }
 #AGuideToEvolution {
   width: 60vw;
