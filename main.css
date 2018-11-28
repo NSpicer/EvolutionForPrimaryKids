@@ -373,13 +373,13 @@ input {
 }
 /*Formatting Pictures and borders on news page*/
 #NewsPicturePink {
-  height: 250px;
+  height: 200px;
   margin: 10px;
   border: 4px solid;
   border-color: #ffe5ff;
 }
 #NewsPictureBlue {
-  height: 250px;
+  height: 200px;
   margin: 10px;
   border: 4px solid;
   border-color: #d5ffff;
