@@ -1,3 +1,4 @@
+/*Title and navbar*/
 #Title {
   background-color:#3b3b3b;
   background-size: cover;
@@ -9,6 +10,11 @@
 }
 #LeafLogo {
   width: 100px;
+}
+h1 {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px;
 }
 ul.navgreen {
   background-color: #f3fee6;
@@ -85,49 +91,7 @@ ul.navgreen a:hover {
     width: 100%;
     text-align: left;
 }
-@media only screen and (max-width: 800px) {
-  ul.navgrey a {
-    font-size: 11px;
-  }
-  ul.navgrey a {
-    font-size: 11px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  ul.navgrey li {
-    display: table-row;
-  }
-  ul.navgreen li {
-    display: table-row;
-  }
-  ul.navgrey a {
-    font-size: 15px;
-  }
-  ul.navgreen a {
-    font-size: 15px;
-  }
-  ul.navgrey {
-    text-align: left;
-    background-color: #3b3b3b;
-    opacity: 0.8;
-  }
-  ul.navgreen {
-    text-align: left;
-    background-color: #3b3b3b;
-    opacity: 0.8;
-  }
-  .dropdown-content {
-    opacity: 1;
-    width: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-h1 {
-  font-size: 30px;
-  color: #ffffff;
-  padding: 10px;
-}
+/*Formatting body style and colours*/
 body {
   margin: 0px;
   font-family: sans-serif;
@@ -159,6 +123,7 @@ body {
   padding: 0;
   width: 100%;
 }
+/*Formatting the footer*/
 footer {
   height: 120px;
   background-color: white;
@@ -186,12 +151,14 @@ hr {
   padding-right: 18vw;
   padding-top: 15px;
 }
+/*Video for Home page*/
 #AGuideToEvolution {
   width: 60vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/*Addressing Misconceptions bubbles and hover effect*/
 #AddressingMisconceptionsA{
   width: 20vw;
   padding-left: 30px;
@@ -265,6 +232,7 @@ hr {
   opacity: 0;
   transition: .3s ease;
 }
+/*Formattig the lesson plans table*/
 table, th, td {
     border: 0px;
     border-collapse: collapse;
@@ -315,6 +283,7 @@ td.lesson4cell:hover {
 .sub {
   font-size: 0.8rem;
 }
+/*Formatting buttons in lesson plans and useful links*/
 button {
   width: 100px;
   height: 100px;
@@ -358,6 +327,10 @@ button {
 #Other a:hover {
   text-decoration: none;
 }
+table.UsefulLinks {
+  border: 0px;
+}
+/*formatting keywords table*/
 table#keywords tr:nth-child(even) {
     background-color: #ffe5ff;
 }
@@ -375,6 +348,7 @@ table#keywords th {
     background-color: #b5ea75;
     text-align: center;
 }
+/*formatting contact form in about page*/
 form {
   align: center;
   margin: 10px;
@@ -397,14 +371,15 @@ input {
   height: 15vw;
   font-style: sans-serif;
 }
+/*Formatting Pictures and borders on news page*/
 #NewsPicturePink {
-  height: 220px;
+  height: 250px;
   margin: 10px;
   border: 4px solid;
   border-color: #ffe5ff;
 }
 #NewsPictureBlue {
-  height: 220px;
+  height: 250px;
   margin: 10px;
   border: 4px solid;
   border-color: #d5ffff;
@@ -412,6 +387,53 @@ input {
 .NewsVideo {
   float: left;
 }
-table.UsefulLinks {
-  border: 0px;
+/*When screen is less than 800px - be resposive*/
+@media only screen and (max-width: 800px) {
+  ul.navgrey a {
+    font-size: 11px;
+  }
+  ul.navgrey a {
+    font-size: 11px;
+  }
+}
+/*When screen is less than 600px - be resposive*/
+@media only screen and (max-width: 600px) {
+  ul.navgrey li {
+    display: table-row;
+  }
+  ul.navgreen li {
+    display: table-row;
+  }
+  ul.navgrey a {
+    font-size: 15px;
+  }
+  ul.navgreen a {
+    font-size: 15px;
+  }
+  ul.navgrey {
+    text-align: left;
+    background-color: #3b3b3b;
+    opacity: 0.8;
+  }
+  ul.navgreen {
+    text-align: left;
+    background-color: #3b3b3b;
+    opacity: 0.8;
+  }
+  .dropdown-content {
+    opacity: 1;
+    width: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #NewsPicturePink {
+    width: 250px;
+    height: auto;
+    align: center;
+  }
+  #NewsPictureBlue {
+    width: 250px;
+    height: auto;
+    align: center;
+  }
 }
